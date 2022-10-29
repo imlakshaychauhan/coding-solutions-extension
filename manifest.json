@@ -1,0 +1,13 @@
+{
+    "name": " Coding Problem Solutions",
+    "description": "Chrome Extension that shows you to watch the top 10 solution videos of GeeksForGeeks, LeetCode, InterviewBit, Codestudio problems according to the Active Tab Opened!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "declarativeContent"]
+}
